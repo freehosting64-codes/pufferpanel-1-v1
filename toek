@@ -1,0 +1,1 @@
+cd /etc/pterodactyl && sudo wings configure --panel-url https://unixcloud.madflex.info --token ptla_bwsUGiDhORE8Zb87wbPaj95ZiLBh32gbI3FaduzKyaq --node 2
