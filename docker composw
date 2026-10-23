@@ -1,0 +1,18 @@
+debug: false
+uuid: e24c583e-f51a-4cd8-b431-bd78ac11a3af
+token_id: 6ZjHq1pPidipSyEL
+token: NqPaOsVjmkwVROzLh3pbKu17UHLjKfIEW7iIF0EI9qZOLaXCZkv24Z9nXh5DE5lF
+api:
+  host: 0.0.0.0
+  port: 8443
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/in1.universeclouds.dpdns.org/fullchain.pem
+    key: /etc/letsencrypt/live/in1.universeclouds.dpdns.org/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://unixcloud.madflex.info'
